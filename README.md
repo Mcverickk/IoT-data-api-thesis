@@ -25,7 +25,11 @@ Follow the steps to run the server locally.
         "status":200,
         "message":"IoT data fetched!",
         "body":{
-                "temperature":23,
-                "humidity":46
+                "_id":"6390b404af2241b311a47645",
+                "temperature":20,
+                "humidity":43,
+                "createdAt":"2022-12-07T15:40:52.491Z",
+                "updatedAt":"2022-12-07T15:40:52.491Z",
+                "id":"6390b404af2241b311a47645"
         }
     }
