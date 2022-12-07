@@ -12,8 +12,6 @@ module.exports.getIoTdata = async (req,res,next) => {
         response.status = 200;
         response.message = "IoT data fetched!"
         response.body = result;
-
-        console.log(response)
     } catch(error){
             console.log(error)
             response.message = error.message;
